@@ -10,8 +10,8 @@ mercado = ("baratao","distancia",2000,"longe")
 print(mercado[0],mercado[1],mercado[2],mercado[3],
 meu_caderno[0],meu_caderno[1],meu_caderno[2],banco[0],banco[1],banco[2])
 
-print(banco[2])
-print(len(banco))
+print(mercado[2])
+print(len(mercado))
 
 print(meu_caderno[0])
 print(len(meu_caderno))
