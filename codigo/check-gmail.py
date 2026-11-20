@@ -1,15 +1,15 @@
 
-nome = input("digite o seu nome: ")
-gmail_usuario = int(input(f"{nome}digite o seu GMAIL: "))
-verificacao = int(input(f"{nome}, verefique o seu GMAIL!: ")) 
-print(f"vamos checar no nosso sistema {nome}")
 
+nome = input("Digite o seu nome: ")
+gmail_usuario = input(f"{nome}, digite o seu GMAIL: ")
+verificacao = input(f"{nome}, verifique o seu GMAIL: ")
+
+print(f"Vamos checar no nosso sistema, {nome}...")
 
 if gmail_usuario == verificacao:
-    print("cadastrado com sucesso!")
-elif gmail_usuario:
-    print("verefica novamente!")
+    print("Cadastrado com sucesso!")
+    print("Bem-vindo ao Bitrix!")
 else:
-    print("passou na verificaçao!")
+    print("Os e-mails não coincidem. Verifique novamente!")
 
-print("bem vindo ao bitrix")
+# gmail teste: afifa5139@uorak.com
